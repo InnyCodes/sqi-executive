@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: linear-gradient( 180deg,rgba(150, 105, 97, 0.67)0%,rgba(2, 0, 76, 0.84)100%), url(../HTML/multimedia/image/Exec-class-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 76vh;
+    max-width:100%;
+}
+
+.header-content{
+    padding: 60px 128px;
+    width: 100%;
+    /* padding-top: 26px;
+    padding-bottom: 26px;*/
+} 
+.header-main{
+    font-weight: 500;
+    margin-bottom: 30px;
+    width: 57.8%;
+    color: white;
+}
+.header-main h2{
+    font-size: 60px;
+    font-weight: 700;
+    word-wrap:nowrap;
+    text-align: left;
+}
+/* .apply{
+    ma
+} */
+.header-button{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    padding: 0.3em 1em;
+    line-height: 1.7em;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.main{
+    padding-top: 52px;
+    padding-bottom: 52px;
+    width: 100%;
+}
+.main-content{
+    /* margin-left: 128px;
+    margin-right: 128px; */
+    width: 80%;
+    margin: auto;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: flex;
+}
+.main-image{
+    margin-bottom:28px;
+}
+.img-box{
+    border-radius: 10px;
+    overflow: hidden;
+    border-left-color: #ff9900;
+    border-left-width: 15px;
+    box-shadow: 6px 6px 80px -16px rgba(0, 0, 0, 0.69);;
+    display:block;
+    max-width: 100%;
+}
+.img-box img {
+    /* height: auto; */
+    width: 100%;
+    display: inline-block;
+}
+.img-box2 img {
+    /* height: auto; */
+    width: 60%;
+    display: inline-block;
+}
+.main-first{
+    padding-right: 56px;
+    width: 100%;
+}
+.main-text p{
+    padding-bottom: 15px;
+    color: #666666
+}
+.main-second{
+    width: 40%;
+}
+.main-text2 p{
+    font-weight: 400;
+    padding-bottom: 14px;
+    text-align: justify;
+    color: #666666;
+}
+.prompt{
+    background-color: #050044;
+    width: 100%;
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+.prompt-container{
+    width: 80%;
+    margin:auto;
+}
+.prompt-content{
+    display: inline;
+    margin: 56px;
+}
+.prompt-content > h2{
+    display: inline;
+    font-family: 'Raleway',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+.prompt-link{
+    display: inline;
+}
+.p-link{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:#ff9900;
+    padding: 0.3em 1em;
+    border:#ff9900 2px solid;
+}
+
+.courses{
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+.courses-header h3 {
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #000442;
+    padding-bottom: 10px;
+}
+.courses-body{
+    margin-left: 128px;
+    margin-right: 128px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: flex;
+}
+.course-image{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.course-image img {
+    width: 100%;
+    /* height: 244px; */
+}
+.ui-ux{
+    margin-right:56px;
+    width: auto;
+}
+.ui-ux h4{
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000442;
+    padding-bottom: 10px;
+}
+.ui-ux a{
+    text-decoration:none;
+}
+.software h4{
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000442;
+    padding-bottom: 10px;
+}
+.software a{
+    text-decoration: none;
+}
+
+.fee{
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+.fee-content{
+    margin-left: 128px;
+    margin-right: 128px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.fee-image{
+    margin-right: 56px;
+}
+.footer{
+   margin-top: 60px;
+}
+.fsection{
+    margin-left: 128px;
+    margin-right: 128px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 56px;
+}
+.fsection h6 {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    line-height: 1.4em;
+    padding-bottom: 10px;
+    color: #333;
+}
+.map{
+    color: #2EACF5;
+    text-decoration: none;
+    font-size: 14px;
+}
+.one{
+    /* margin-right: 56px; */
+}
+.one h3{
+    font-weight: 600;
+    font-size: 19px;
+    color: #00208A;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+}
+.two{
+    /* margin-left: 56px; */
+}
+.two h6{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+}
+.two p{
+    margin-bottom: 20px;
+}
+.two a{
+    text-decoration: none;
+    color: rgb(102,102,102);
+    font-size: 14px;
+}
+.one h4{
+    font-size: 15px;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.three p{
+    margin-bottom: 20px;
+     color: rgb(102,102,102);
+     font-size: 14px;
+}
+.three h6{
+    margin-bottom: 20px;
+}
+.four h6{
+    margin-bottom: 20px;
+}
+.four p{
+    margin-bottom: 20px;
+    color: rgb(102,102,102);
+    font-size: 14px;
+}
+.four a{
+        color: #2EACF5;
+    text-decoration: none;
+    font-size: 14px;
+}
+.five h6{
+    margin-bottom: 20px;
+}
+.five p{
+    margin-bottom: 20px;
+     color: rgb(102,102,102);
+     font-size: 14px;
+}
+
+.footer-text{
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-top: 14px;
+    letter-spacing: 0.1;
+    font-size: 14px;
+    background-color: #050044;
+    padding-bottom: 1px;
+    color: white;
+    width: 100%;
+}
+
+@media (max-width:980px) {
+    .header{
+        padding: 0px;
+        background-size: cover;
+        min-width:100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .main{
+        padding: 4% 0;
+        display: block;
+    }
+    .main-content{
+        display: block;
+        /* word-wrap: break-word; */
+        margin-right:0;
+        margin-left: 100px;
+    }
+    .main-second{
+        width: 100%;
+    }
+    .prompt{
+        padding: 50px 0;
+        width: auto;
+    }
+    .courses-body{
+        margin-right: 0;
+    }
+    .prompt-content{
+        display: block;
+        width: 100%;
+    }
+    .prompt-link{
+        margin: auto;
+    }
+    .prompt-media{
+        text-align: center;
+        margin-left: 100px;
+    }
+    .p-link{
+        margin: auto 100px;
+    }
+    .courses-body{
+        display: block;
+    }
+    .fsection{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:525px) {
+    .header{
+        background-size: a;
+    }
+}
